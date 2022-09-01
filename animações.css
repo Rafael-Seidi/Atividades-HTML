@@ -1,0 +1,19 @@
+#titulo {
+    width: 40%;
+    padding: 0px;
+    margin: 25px;
+    background-color: rgb(50,50,50);
+}
+
+
+@keyframes abertura1 {
+    0% {
+        transform: scaleX(0);
+        transform-origin: 0% 0%;
+    }
+    100%
+    {
+        transform: scaleX(1);
+        transform-origin: 0% 0%;
+    }
+}
